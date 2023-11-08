@@ -1,5 +1,6 @@
 
 /** 
+ * hlm
  * Fully functional version (non object-oriented) of the turtle
  * 
  * @author Patrick Girard
@@ -11,6 +12,7 @@ public class FunctionalTurtle
     private FunctionalTurtle() {
         // This is only to prevent instantiating an object
     }
+    //SALUT
 
     public static void main () {
 
