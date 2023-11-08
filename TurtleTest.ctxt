@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TurtleTest
+comment0.text=\n\ The\ test\ class\ TurtleTest.\n\n\ @author\ Patrick\ Girard\n\ @version\ 10/08/2010\n
+comment1.params=
+comment1.target=TurtleTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ TurtleTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testTurtleConstructor()
+comment4.text=\n\ Method\ testTurtleConstructor\n\ \ \ Tests\ the\ constructor\ and\ all\ getters\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n
+comment5.params=
+comment5.target=void\ testGoForward()
+comment5.text=\n\ Method\ testGoForward\n\ \ \ Tests\ the\ goForward()\ function\ in\ all\ directions\n\ \ \ (1)\ goForward()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ -1\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (2)\ turn()\n\ \ \ (3)\ goForward()\n\ \ \ [expected\ value]\ x\ ->\ 1\n\ \ \ [expected\ value]\ y\ ->\ -1\n\ \ \ [expected\ value]\ direction\ ->\ 0\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (4)\ turn()\n\ \ \ (5)\ goForward()\n\ \ \ [expected\ value]\ x\ ->\ 1\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 1\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (6)\ turn()\n\ \ \ (7)\ goForward()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 2\n\ \ \ [expected\ value]\ trace\ ->\ true\n
+comment6.params=
+comment6.target=void\ testTurn()
+comment6.text=\n\ Method\ testTurn\n\ \ \ Tests\ the\ turn()\ function\ in\ all\ directions\n\ \ \ (1)\ turn()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 0\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (2)\ turn()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 1\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (3)\ turn()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 2\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (4)\ turn()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n
+comment7.params=
+comment7.target=void\ testDrawUndraw()
+comment7.text=\n\ Method\ testDrawUndraw\n\ \ \ Tests\ the\ draw()\ and\ undraw()\ functions\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (1)\ draw()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n\ \ \ (2)\ undraw()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ false\n\ \ \ (3)\ undraw()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ false\n\ \ \ (4)\ draw()\n\ \ \ [expected\ value]\ x\ ->\ 0\n\ \ \ [expected\ value]\ y\ ->\ 0\n\ \ \ [expected\ value]\ direction\ ->\ 3\n\ \ \ [expected\ value]\ trace\ ->\ true\n
+numComments=8
